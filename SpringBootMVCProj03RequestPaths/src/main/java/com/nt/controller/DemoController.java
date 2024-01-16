@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class DemoController {
 	@GetMapping(value= {"/REPORT"})
 	public String generateReport(Map<String,Object>map ) {
-		System.out.println("DemoController.generateReport()");
+		System.out.println("DemoController.generateReport()::");
 		return "display";
 	}
 
